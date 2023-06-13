@@ -1,0 +1,23 @@
+{
+  "namespace": "chapter03.avro",
+  "type": "record",
+  "name": "Customer",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ]
+}
+// in order to create Customer class, mvn install
